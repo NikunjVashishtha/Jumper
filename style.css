@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+}
+
+#gameCanvas {
+    height: 100%;
+}
+
+#sky {
+    margin-top: -8px;
+    margin-left: -10px;
+    margin-right: -10px;
+    z-index: 1;
+    height: 80%;
+    background: url("sky.jpg");
+    background-repeat: repeat-x;
+}
+#character {
+    margin-bottom: 0px;
+    margin-left: 10rem;
+    height: 5rem;
+    z-index: 5;
+}
+#charArea {
+    height: 0%;
+    display: flex;
+    align-items: flex-end;
+}
+.stone {
+    height: 5rem;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 120%;
+    z-index: 4;
+}
+
+.tree {
+    z-index: 2;
+    height: 15rem;
+    position: absolute;
+    margin-top: -250px;
+}
+
+#grassArea {
+    z-index: 3;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -1rem;
+    height: 23%;
+    background: url("grass.png");
+    background-repeat: repeat;
+}
